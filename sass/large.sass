@@ -1,0 +1,90 @@
+// min-width: 992px
+
+.underline 
+    width: 500px
+
+//HEADER
+.hero-text
+    h1
+        font-size: 60px
+
+    p
+        font-size: 25px
+        
+
+//MAIN
+.container
+    display: flex
+    flex-direction: row
+    justify-content: space-evenly
+    width: 90%
+
+    .about-photo
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center 
+        width: 30%
+         
+    .about-text
+        width: 70%
+
+    .dot 
+        display: block
+
+    .card-deck
+        width: 480px
+
+.right-to-left
+    flex-direction: row-reverse
+
+
+//PROJECTS
+.project-list
+    width: 90%
+
+//CONTACT
+#contact
+    .contact-img
+        background-image: url(../img/contact/contact-3-lg.jpg)
+
+    
+
+@media (min-width: 1200px)
+    //MAIN
+    .container
+        .card-deck
+            width: 600px
+
+
+@media (min-width: 1400px)
+    //HEADER
+    .hero-text
+        h1
+            font-size: 80px
+
+        p
+            font-size: 30px
+
+    //MAIN
+    .container, .project-list
+        width: 85%
+
+@media (min-width: 1600px)
+    //MAIN
+    .container
+        .card-deck
+            width: 650px
+
+@media (min-width: 1700px)
+    //HEADER
+    .hero-text
+        h1
+            font-size: 100px
+
+        p
+            font-size: 40px
+
+    //MAIN
+    .container, .project-list
+        width: 70%

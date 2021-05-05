@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/eye.ico" type="image/x-icon">
+  <title>Emilia Zysk Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" media="screen and (min-width: 576px)" href="css/small.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/medium.css">
+  <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/large.css">
+  <script src="https://kit.fontawesome.com/de9503f920.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar">
+
+  <nav class="navbar navbar-expand-lg fixed-top " id="navbar">
+    <a class="navbar-brand" href="#"><i class="fas fa-eye"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto text-right">
+        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+        <!-- span with (current) is used for subpages -->
+        <a class="nav-item nav-link" href="#about">About Me</a>
+        <a class="nav-item nav-link" href="#projects">Projects</a>
+        <a class="nav-item nav-link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="hero-img">
+      <div class="hero-shadow"></div>
+      <div class="hero-text">
+        <h1 class="animate__animated animate__fadeIn">emilia zyśk</h1>
+        <p class="animate__animated animate__fadeIn animate__delay-1s">programmer & a capybara lover</p>
+      </div>
+      <a href="#about" class="arrow"><i class="fas fa-chevron-down animate__animated animate__bounce"></i></a>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="about about-photo">
+            <img src="img/about/about1profilephoto.jpg" class="about-img" alt="Profile photo">
+          </div>
+          <div class="about about-text">
+            <h1 class="display-4">Hi, I'm Emilia.</h1>
+            <p>Welcome to my profile page. I’m an aspiring programmer.</p>
+            <p>I decided to join the <a href="https://www.lewagon.com/tokyo/web-development-course/full-time">Le Wagon Web Development course in Tokyo</a> because I like learning new things and programming seemed like a never-ending study that I might enjoy. </p>
+            <p>So far it feels like I made the right choice ♥︎</p>
+          </div>
+        </div>
+        <div class="underline"></div>
+      </div>
+
+
+      <!-- SKILLS SECTION -->
+      <div class="jumbotron jumbotron-fluid" id="skills">
+        <div class="container right-to-left">
+
+          <div class="about about-photo">
+            <img src="img/about/about2skills.png" class="about-img" alt="Skills section">
+          </div>
+
+          <div class="about about-text">
+            <h2>My programming skills</h2>
+
+            <div class="skills-icons row text-center">
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="far fa-gem"></i></p>
+                <p>Ruby</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fas fa-database"></i></p>
+                <p>SQL</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-html5"></i></p>
+                <p>HTML</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-css3-alt"></i></p>
+                <p>CSS</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-sass"></i></p>
+                <p></p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-js"></i></p>
+                <p>JavaScript</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper">jQuery</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-bootstrap"></i></p>
+                <p>Bootstrap</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper">RWD</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-react"></i></p>
+                <p>ReactJS</p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-git"></i></p>
+              </div>
+              <div class="col-4 col-sm-3 col-md-2">
+                <p class="upper"><i class="fab fa-github"></i></i></p>
+                <p>GitHub</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="underline"></div>
+      </div>
+
+
+      <!-- INTERESTS SECTION -->
+      <div class="jumbotron jumbotron-fluid" id="interests">
+        <div class="container">
+          <div class="about about-photo">
+            <img src="img/about/about3interests.png" class="about-img" alt="Interests section">
+          </div>
+          <div class="about about-text">
+            <h2>My interests</h2>
+            <p>Not so long ago when I still had some free time, I liked to travel and read books. You can find a small selection of my <a href="#reading">recent reads</a> below.</p>
+            <p>Moreover, I’m a huge sit-com fan. I'm currently re-watching 'Friends' for the hundredth time. Not really a hobby, just something I need in my life.</p>
+          </div>
+        </div>
+        <div class="underline"></div>
+      </div>
+
+
+      <!-- READING SECTION -->
+      <div class="jumbotron jumbotron-fluid" id="reading">
+        <div class="container right-to-left">
+          <div class="about about-photo">
+
+            <div class="dot dot-blue dot-xs dot-margin"></div>
+            <div class="dot dot-black dot-sm"></div>
+            <div class="dot dot-blue dot-md dot-margin"></div>
+            <img src="img/about/about4reading.png" class="about-img" alt="Reading section">
+            <div class="dot dot-blue dot-md dot-margin"></div>
+            <div class="dot dot-black dot-sm"></div>
+            <div class="dot dot-blue dot-xs dot-margin"></div>
+
+          </div>
+          <div class="about about-text reading-md">
+            <div class="slick">
+              <h2 class="text-center">Currently reading:</h2>
+              <div class="card-deck book-carousel">
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/current/1promised-land.jpg"
+                    alt="Book cover of 'A Promised Land' by Barack Obama, book cover">
+                  <div class="card-body">
+                    <h5 class="card-title">A Promised Land</h5>
+                    <p class="card-text">Barack Obama</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">English language version (original)</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/current/2harry-potter.jpg"
+                    alt="Book cover of 'Harry Potter and the Philosopher's Stone' by J. K. Rowling">
+                  <div class="card-body">
+                    <h5 class="card-title">Harry Potter and the Philosopher's Stone</h5>
+                    <p class="card-text">J. K. Rowling</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Japanese language version (translation)</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/current/3pood.jpeg"
+                    alt="Book cover of 'Javascript: The Definitive Guide' by David Flanagan">
+                  <div class="card-body">
+                    <h5 class="card-title">Practical Object-Oriented Design, An Agile Primer Using Ruby</h5>
+                    <p class="card-text">Sandi Metz</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">English language version (original)</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/current/4command-line.jpg"
+                    alt="Book cover of 'Learn Enough Command Line to Be Dangerous' by Michael Hartl">
+                  <div class="card-body">
+                    <h5 class="card-title">Learn Enough Command Line to Be Dangerous</h5>
+                    <p class="card-text">Michael Hartl</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">English language version (original)</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="between"></div>
+
+            <div class="slick">
+              <h2 class="text-center">Recently read:</h2>
+              <div class="card-deck book-carousel">
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/recent/1witcher.jpg"
+                    alt="Book cover of the Witcher Saga by Andrzej Sapkowski">
+                  <div class="card-body">
+                    <h5 class="card-title">The Witcher Saga</h5>
+                    <p class="card-text">Andrzej Sapkowski</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Polish language version (original)</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/recent/2javascript.jpg"
+                    alt="Book cover of 'A Smarter Way to Learn JavaScript' by Mark Myers">
+                  <div class="card-body">
+                    <h5 class="card-title">A Smarter Way to Learn JavaScript</h5>
+                    <p class="card-text">Mark Myers</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">English language version (original)</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/recent/3uso.jpg"
+                    alt="Book cover of 'Uso wo Aisuru Onna' by Etsu Okabe">
+                  <div class="card-body">
+                    <h5 class="card-title">Uso wo Aisuru Onna (嘘を愛する女; Eng.: The Lies She Loved)</h5>
+                    <p class="card-text">Etsu Okabe</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Japanese language version (original)</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top mx-auto" src="img/books/recent/4good-omens.jpg"
+                    alt="Book cover of 'Good Omens' by  Neil Gaiman and Terry Pratchett">
+                  <div class="card-body">
+                    <h5 class="card-title">Good Omens</h5>
+                    <p class="card-text"> Neil Gaiman and Terry Pratchett</p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">English language version (original)</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="underline"></div>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="project-list mx-auto">
+          <h1 class="display-4 text-center">My projects</h1>
+          <div class="project-cards row justify-content-center">
+
+            <div class="card text-center">
+              <img class="card-img-top" src="img/projects/finder-noticeboard.png"
+                alt="Project interface visualisation">
+              <div class="card-header">
+                <h5 class="card-title">NoticeBoard</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">An app for creating messages on a notice board.</p>
+                <p class="card-text">React, Node.js, Material-UI, HTML, CSS</p>
+              </div>
+              <div class="card-footer">
+                <p>View on:</p>
+                <div class="btn-group">
+                  <button class="btn"><a href="https://github.com/emzys/noticeboard-app"
+                      target="_blank">GitHub</a></button>
+                  <button class="btn"><a href="https://afternoon-inlet-58056.herokuapp.com/"
+                      target="_blank">Live</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-top" src="img/projects/finder-newsletter-signup.png"
+                alt="Project interface visualisation">
+              <div class="card-header">
+                <h5 class="card-title">Newsletter Signup</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">An newsletter signup application.</p>
+                <p class="card-text">Mailchimp Marketing API, Node.js, Express, JavaScript, HTML, CSS</p>
+              </div>
+              <div class="card-footer">
+                <p>View on:</p>
+                <div class="btn-group">
+                  <button class="btn"><a href="https://github.com/emzys/newsletter-signup"
+                      target="_blank">GitHub</a></button>
+                  <button class="btn"><a href="https://protected-stream-08502.herokuapp.com/"
+                      target="_blank">Live</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-top" src="img/projects/finder-weather-app.png" alt="Project interface visualisation">
+              <div class="card-header">
+                <h5 class="card-title">WeatherApp</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">An application showing current weather at given location.</p>
+                <p class="card-text">OpenWeather API, Ajax, JavaScript, HTML, CSS</p>
+              </div>
+              <div class="card-footer">
+                <p>View on:</p>
+                <div class="btn-group">
+                  <button class="btn"><a href="https://github.com/emzys/WeatherApp" target="_blank">GitHub</a></button>
+                  <button class="btn"><a href="https://emzys.github.io/WeatherApp/" target="_blank">Live</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-top" src="img/projects/finder-todo-list.png" alt="Project interface visualisation">
+              <div class="card-header">
+                <h5 class="card-title">ToDo List</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">A to-do list creator.</p>
+                <p class="card-text">HTML, CSS, JavaScript</p>
+              </div>
+              <div class="card-footer">
+                <p>View on:</p>
+                <div class="btn-group">
+                  <button class="btn"><a href="https://github.com/emzys/ToDo-List" target="_blank">GitHub</a></button>
+                  <button class="btn"><a href="https://emzys.github.io/ToDo-List/" target="_blank">Live</a></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="card text-center">
+              <img class="card-img-top" src="img/projects/finder-temp-converter.png"
+                alt="Project interface visualisation">
+              <div class="card-header">
+                <h5 class="card-title">Temperature Converter</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">An application converting temperature from °C to °F.</p>
+                <p class="card-text">HTML, CSS, JavaScript</p>
+              </div>
+              <div class="card-footer">
+                <p>View on:</p>
+                <div class="btn-group">
+                  <button class="btn"><a href="https://github.com/emzys/temperature-converter"
+                      target="_blank">GitHub</a></button>
+                  <button class="btn"><a href="https://emzys.github.io/temperature-converter/"
+                      target="_blank">Live</a></button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="contact-img">
+        <div class="contact-shadow"></div>
+        <div class="contact-text text-center">
+          <h2>Contact me:</h2>
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/emzysk/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/emzys" target="_blank"><i class="fab fa-github-square"></i></a>
+          </div>
+          <p>Send me an e-mail:</p>
+          <p>fake_address@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

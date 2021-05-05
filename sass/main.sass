@@ -1,0 +1,366 @@
+$blue-color: #039dff
+$gray-color: #e9ecef
+$dark-color: #222222
+
+*, *::after, *::before
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html
+    scroll-behavior: smooth
+
+body
+    position: relative
+    font-family: 'Montserrat', sans-serif
+    background-color: $gray-color
+    color: $dark-color
+
+.underline
+    margin: 0 auto
+    width: 200px
+    height: 3px
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(3, 157, 255, 0.75), rgba(0, 0, 0, 0));
+
+
+//NAVIGATION
+nav
+    text-transform:  uppercase
+    transition: background-color .5s
+
+    a, i
+        padding: 0 10px
+        color: $gray-color
+        text-shadow: 2px 2px black;
+        transition: color .3s
+
+    a:hover, i:hover
+        color: $blue-color
+
+    .active
+        color: $blue-color
+
+    i
+        font-size: 28px
+
+    .navbar-nav
+        font-size: 17px
+
+.shadow-bg
+    background-color: rgba(0,0,0,.7)
+
+
+//HEARDER
+
+header
+    color: $gray-color
+    text-shadow: 2px 2px black
+
+.hero-img
+    position: relative
+    height: 100vh
+    background-image: url('../img/headerbgM.jpg')
+    background-position: center
+    background-size: cover
+    background-attachment: fixed
+    z-index: 0
+
+.hero-shadow
+    position: absolute
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,.3)
+    z-index: -10
+
+.hero-text
+    position: absolute
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    text-align: center
+    height: 70%
+    width: 50%
+
+    h1
+        text-transform: uppercase
+        margin: 0 15px
+
+    p
+        font-family: 'Playfair Display', serif
+        font-style: italic
+        margin: 15px
+
+.arrow
+    position: absolute
+    bottom: 20px
+    left: 50%
+    transform: translateX(-50%)
+
+.fa-chevron-down
+    animation: bounce 1.6s infinite
+    padding: 20px
+    font-size: 25px
+    color: $gray-color
+    transition: color .3s
+
+.fa-chevron-down:hover
+    color: $blue-color
+
+
+// MAIN
+
+.jumbotron
+    margin: 0
+    padding: 0
+
+.container
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    max-width: 2560px
+    padding: 70px 20px
+
+    .about
+        padding: 15px
+
+    .about-img
+        height: 200px
+        border-radius: 50%
+
+    .lead
+        font-weight: bold
+
+    .dot
+        display: none
+        border-radius: 50%
+
+    .dot-black
+        background-color: $dark-color
+
+    .dot-blue
+        background-color: $blue-color
+
+    .dot-lg
+        height: 90px
+        width: 90px
+
+    .dot-md
+        height: 70px
+        width: 70px
+
+    .dot-sm
+        height: 40px
+        width: 40px
+
+    .dot-xs
+        height: 25px
+        width: 25px
+
+    .dot-margin
+        margin: 50px
+
+    h1, h2
+        text-align: center
+        margin-bottom: 20px
+
+    a
+        color: $blue-color
+
+    a:hover
+        color: #77cafd
+        text-decoration: none
+
+    .between
+        display: none
+        height: 30px
+
+    .slick
+        margin-top: 30px
+
+        h2
+            font-size: 29px
+            margin-bottom: 20px
+
+    .card-deck
+        width: 200px
+        left: 50%
+        transform: translateX(-50%)
+
+        .card
+            img
+                margin-top: 10px
+                width: 100px
+                border-radius: 3%
+
+            .card-body, .card-footer
+                padding: 10px
+
+        h5
+            font-style: italic
+            font-size: 22px
+            margin-bottom: 10px
+
+        p
+            14px
+
+
+// SKILLS SECTION
+#skills
+    .skills-icons
+        align-items: center
+
+        p
+            font-size: 12px
+
+        .upper
+            margin: 30px auto 0
+            font-weight: bold
+            font-size: 20px
+
+            i
+                font-size: 40px
+
+
+    .skills-text
+        margin-top: 30px
+
+//PROJECT SECTION
+#projects
+    .project-list
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        max-width: 2560px
+        padding: 70px 20px
+
+        .project-cards
+            margin-top: 15px
+
+        .card
+            width: 280px
+            margin: 10px 15px 30px
+            padding: 0
+            transition: transform .3s
+
+            img
+                height: 190px
+                box-shadow: 0 0 2px black
+
+            .card-header, .card-body, .card-footer
+                padding: 10px
+
+            .card-title
+                margin: 0
+                font-weight: bold
+
+            .card-text
+                font-size: 14px
+
+            .card-text:first-child, .card-footer p
+                margin-bottom: 10px
+
+
+        .card:hover
+            transform: scale(.98)
+
+
+        .btn
+            padding: 2px 5px
+            background-color: $dark-color
+            border: 1px solid $gray-color
+            width: 85px
+            font-size: 18px
+            transition: background-color .3s, border .3s
+
+            a
+                color: $gray-color
+                text-decoration: none
+                transition: color .3s
+
+        .btn:hover
+            background-color: $gray-color
+            border: 1px solid $dark-color
+
+            a:hover
+                color: $dark-color
+
+
+//CONTACT
+#contact
+    .contact-img
+        position: relative
+        height: 80vh
+        background-image: url(../img/contact/contact-1-sm.jpg)
+        background-position: center
+        background-attachment: fixed
+        background-size: cover
+        z-index: 0
+
+    .contact-shadow
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0,.8)
+        z-index: -10
+
+    .contact-text
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%,-50%)
+        color: $gray-color
+        text-shadow: 2px 2px black
+        padding: 20px 0
+
+        p
+            font-size: 20px
+
+        .social-media i
+            font-size: 50px
+            color: $gray-color
+            padding: 15px
+            transition: color .3s
+
+        .social-media i:hover
+            color: $blue-color
+
+
+
+@media (min-width: 360px)
+
+    nav
+        .navbar-nav
+            font-size: 20px
+
+@media (min-width: 411px)
+
+    nav
+        .navbar-nav
+            font-size: 22px
+
+    h2
+        font-size: 40px
+
+    .container
+        .slick
+            h2
+                font-size: 40px
+
+        .card-deck
+            h5
+                font-size: 24px
+
+            p
+                16px
+
+    #contact
+        .contact-text
+            p
+                font-size: 23px
+
+            .social-media i
+                font-size: 80px
+                padding: 18px

@@ -1,0 +1,106 @@
+.underline {
+  width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+}
+
+.hero-text p {
+  font-size: 25px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 90%;
+}
+
+.container .about-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30%;
+}
+
+.container .about-text {
+  width: 70%;
+}
+
+.container .dot {
+  display: block;
+}
+
+.container .card-deck {
+  width: 480px;
+}
+
+.right-to-left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.project-list {
+  width: 90%;
+}
+
+#contact .contact-img {
+  background-image: url(../img/contact/contact-3-lg.jpg);
+}
+
+@media (min-width: 1200px) {
+  .container .card-deck {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .hero-text h1 {
+    font-size: 80px;
+  }
+  .hero-text p {
+    font-size: 30px;
+  }
+  .container, .project-list {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container .card-deck {
+    width: 650px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .hero-text h1 {
+    font-size: 100px;
+  }
+  .hero-text p {
+    font-size: 40px;
+  }
+  .container, .project-list {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=large.css.map */

@@ -1,0 +1,13 @@
+.hero-text h1 {
+  font-size: 48px;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+
+.container .card-deck {
+  width: 300px;
+  margin: 0;
+}
+/*# sourceMappingURL=small.css.map */
